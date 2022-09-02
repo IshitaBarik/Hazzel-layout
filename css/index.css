@@ -1,0 +1,771 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-size: 16px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+/* Navigation starts */
+nav{
+    padding: 0 210px;
+}
+nav span{
+    color: #e32879;
+    font-size: 2rem;
+}
+.navbar{
+    padding-top: 0;
+    font-weight: 700;
+    padding-bottom: 57px;
+}
+.navbar-light .navbar-brand {
+    font-size: 1.9rem;
+    color:#fff;
+}
+.navbar-light .navbar-brand:hover {
+    color:#fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 0.95rem;
+    padding-right: 1.7rem;
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: #e32879;
+}
+
+/* Navigation ends */
+
+/* Banner starts */
+.Banner{
+    background-image: url("../img/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    width:100%;
+    height: 750px;
+    overflow: hidden;
+}
+.Banner h3{
+    margin-top:235px;
+    margin-left: 80px;
+    color:#e32879;
+    font-size: 1.20rem;
+    font-weight: 800;
+}
+.Banner h1{
+    color: #fff;
+    font-size: 4.2rem;
+    font-weight: 700;
+    margin-left: 80px;
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+.Banner p{
+    color:#fff;
+    padding: 0 180px 0px 80px;
+}
+.button{
+    width:150px;
+    height: 50px;
+    margin-left: 80px;
+    border: none;
+    background-color: #e32879;
+    color: #fff;
+    font-family: 'Libre Franklin', sans-serif;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.button:hover{
+    background-color: transparent;
+    color: #e32879;
+    border:1px solid #e32879;
+    transition: .5s;
+}
+/* Banner ends */
+
+/* About starts */
+.About{
+    color:#fff;
+    background-color: #212529!important;
+    padding: 80px 0px;
+}
+.About .two-sec img{
+    width:90%;
+}
+.About .content h4{
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #e32879;
+    margin-top: 50px;
+}
+.About .content h1{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.About .content p{
+    padding-right: 140px;
+}
+.About .button{
+    margin-left: 0px;
+}
+/* About area ends */
+
+/* Service area starts */
+.service{
+    background-color: #212529;
+    color:#fff;
+    padding-bottom: 40px;
+}
+.service .middle-sec h4 {
+    font-size: 1rem;
+    color:#e32879;
+}
+.service h1{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 20px 0 30px;
+}
+.design{
+    background-color: #0a09093b;
+    padding: 30px 0;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    cursor: pointer;
+}
+.design h3{
+    font-weight: 700;
+    margin: 20px 0;
+}
+.design h3:hover{
+    color: #e32879;
+    transition: .5s;
+}
+.design p {
+    font-size: 1.05rem;
+    font-weight: 100;
+    color: #b0aea1;
+    padding: 0 50px;
+}
+.design .fa{
+    color:#e32879;
+    font-size: 3rem;
+    margin-top: 10px;
+}
+.design .fa:hover{
+    color:#fff;
+    transition: .5s;
+}
+.design:hover {
+    border-bottom: 3px solid #e32879;
+}
+/* Service area ends */
+
+/* Portfolio starts */
+.Portfolio{
+    background-color: #181a1c;
+    padding: 100px 0 130px;
+}
+.Portfolio h4 {
+    color: #e32879;
+    font-size: 1rem;
+    font-weight: 800;
+}
+.Portfolio h1{
+    color: #fff;
+    font-weight: 700;
+}
+/* Portfolio ends */
+
+/* Four images area start */
+.FourImagesArea{
+    background-color:#212529;
+}
+.outside{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.inside{
+    transition: all 0.3s ease-in;
+}
+.FourImagesArea img{
+    width:100%;
+}
+.total{
+    position: relative;
+    top:-7rem;
+}
+.total-2{
+    color:#fff;
+}
+.total-2 .button{
+    margin-left: 0px;
+}
+.first h4{
+    color:#e32879;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.first h1{
+    font-size: 2.8rem;
+    margin-right: 150px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.second h1{
+    font-weight: 700;
+    color:#e32879;
+}
+.second h4{
+    font-weight: 700;
+}
+.second p{
+    color: #b0aea1;
+}
+/* Four images area end */
+
+/* Carousel area starts */
+.carousel{
+    background-color: #212529;
+    padding-bottom: 6rem;
+    padding-top:90px;
+}
+.owl-carousel, .owl-carousel.owl-loaded {
+    display: block;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+    border-radius: 100%;
+    display: inline-block;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+    width: 27px;
+    height: 8px;
+    background: #e32879;
+    border-radius: 100px;
+}
+.owl-theme .owl-dots .owl-dot:hover span {
+    transition: .3s;
+    background-color:#e32879;
+}
+.owl-dots{
+    text-align: center;
+}
+.work{
+    background-color: #0a09093b;
+    color:#fff;
+    padding: 60px 0px;
+}
+.work .click img{
+    width: 100%;
+    border-radius: 100%;
+}
+.write h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.write h5 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color:#e32879;
+}
+.write p {
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: 0.9rem;
+    color: #b0aea1;
+}
+.click{
+    margin-left: 20px;
+}
+/* Carousel area starts */
+
+/* Pink Area Starts */
+.pink-area{
+    background-image: url("../img/ctc-bg.jpg");
+    color:#fff;
+    padding: 90px 0;
+}
+.pink-area h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.pink-area p{
+    padding: 0 170px;
+    font-size: 1rem;
+}
+.button2{
+    background-color: #fff;
+    border: none;
+    color: #e32879;
+    width: 160px;
+    height: 40px;
+    border-radius: 3px;
+    font-weight: 800;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.button2:hover{
+    background-color:transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: .3s;
+}
+/* Pink Area Ends */
+
+/* Three Person area starts*/
+.Three-person{
+    background-color: #181a1c;
+    color:#fff;
+    padding: 90px 0;
+}
+.Three-person h5 {
+    font-size: 1.2rem;
+    color: #e32879;
+    font-weight: 700;
+}
+.Three-person h1{
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+.Three-person img{
+    width: 100%;
+}
+/* Three Person area ends*/
+
+/* Blog area starts */
+.blog{
+    background-color: #212529;
+    padding: 90px 0;
+    color:#fff;
+}
+.blog h3{
+    color:#e32879;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.blog h1{
+    font-weight:700;
+    margin-bottom: 60px;
+}
+.corner {
+    background-color: #191919;
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+}
+.blog img{
+    width: 100%;
+}
+.small-img img{
+    width:15%;
+    border-radius: 100%;
+}
+.corner h5 {
+    font-size: 1.2rem;
+    color: #e32879;
+    font-weight: 600;
+}
+.corner h3 {
+    font-size: 1.59rem;
+    font-weight: 800;
+    color:#fff;
+    line-height: 2.2rem;
+}
+.corner p {
+    font-size: 1.08rem;
+    font-weight: 400;
+    color: #b0aea1;
+    line-height: 1.7rem;
+    margin-top: 1.3rem;
+}
+.russell h4 {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.russell h5 {
+    font-size: 0.95rem;
+    color: #e32879;
+    font-weight: 300;
+}
+.blog .outside{
+    padding: 0px 30px;
+}
+.russell{
+    margin-left:8px;
+}
+/* Blog area ends */
+
+/* footer area starts */
+footer{
+    background-color: #191919;
+    color:#b0aea1;
+    padding: 90px 0;
+}
+footer h1 {
+    color:#fff;
+    font-weight: 700;
+}
+footer h3{
+    color:#fff;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+footer .btn {
+    width: 100%;
+    background-color: #e32879;
+    border: none;
+    margin-top: 0.5rem;
+    border-radius: 0;
+    height: 2.9rem;
+    color: #efefef;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+footer .btn:hover{
+    border: 1px solid #e32879;
+    background-color: transparent;
+    color:#e32879;
+}
+footer input{
+    width:100%;
+    height: 45px;
+    background-color: #191919;
+    border: 0.5px solid #b0aea1;
+    padding-left: 5px;
+}
+footer h1 span{
+    color: #e32879;
+    font-size: 2rem;
+}
+footer i {
+    padding: 0.9rem;
+    background-color: #212529;
+    border-radius: 100%;
+    font-size: 1.4rem;
+    margin-right: 0.5rem;
+    margin-top: 0.3rem;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+footer .fa-heart-o{
+    color:#e32879;
+    padding: 0px;
+    background:none;
+    border-radius:0px;
+    margin-right: 0rem;
+    margin-top: 0rem;
+}
+footer .fa-heart-o:hover {
+    background-color: transparent;
+}
+footer i:hover{
+    background-color: #fff;
+}
+footer a{
+    color:#fff;
+    text-decoration: none;
+}
+footer a:hover{
+    color:#e32879;
+}
+/* Media Query */
+@media only screen and (max-width:1440px){
+    nav {
+        padding: 0px 10px;
+    }
+    .navbar-light .navbar-toggler {
+        border: none;
+        color:transparent;
+    }
+    .navbar-light .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .write p {
+        font-size: 0.85rem;
+    }
+    .write{
+        padding: 0px 10px;
+    }
+    .pink-area p {
+        padding: 0 100px;
+    }
+    .corner h3 {
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+    .corner p {
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    }
+}
+@media only screen and (max-width:991px){
+    .navbar-light .navbar-toggler-icon {
+        background-image: url(../img/clipart365828.png);
+        width:25px;
+    }
+    .navbar {
+        padding-bottom: 0px;
+    }
+    .About .two-sec img {
+        width: 100%;
+    }
+    .About .content p {
+        padding-right: 20px;
+    }
+    .design p {
+        padding: 0 90px
+    }
+    .total-2 .button {
+        margin-bottom: 30px;
+    }
+    .first h1 {
+        font-size: 2rem;
+        margin-right: 0px;
+    }
+    .work{
+        flex-direction: column;
+    }
+    .work .click img {
+        width: 40%;
+    }
+    .work{
+        padding: 10px 30px;
+    }
+    .write{
+        padding: 20px 0px;
+    }
+    .pink-area p {
+        font-size: 0.9rem;
+        padding: 0 0px;
+    }
+    .pink-area h1 {
+        font-size: 2.5rem;
+    }
+    .box{
+        padding: 0px 50px;
+        margin-bottom: 50px;
+    }
+    .Three-person {
+        padding: 90px 0 0px;
+    }
+    .blog .outside {
+        padding: 0px 0px;
+        flex-direction: column;
+    }
+    .blog img {
+        margin-bottom: 80px;
+    }
+    .corner {
+        margin-top: 500px;
+    }
+    .corner p {
+        font-size: 0.9rem;
+        line-height: 1.7rem;
+    }
+    .corner h3 {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }    
+    .corner h5 {
+        font-size: 1rem;
+    }
+    .small-img{
+        margin-bottom: 2rem;
+    }
+    .no-1{
+        margin-bottom: 20px;
+    }
+    footer p {
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+    footer input {
+        margin-bottom: 30px;
+    }
+    footer .btn {
+        margin-bottom: 30px;
+    }
+    footer h3 {
+        margin-bottom: 10px;
+    }
+    .last{
+        margin-top:30px;
+    }
+}
+@media only screen and (max-width:768px){
+    .corner {
+        margin-top: 210px;
+    }
+}
+@media only screen and (max-width:464px){
+    .Banner h3 {
+        margin-left: 0px;
+    }
+    .Banner h1 {
+        margin-left: 0px;
+    }
+    .Banner p {
+        padding: 0 10px 0px 0px;
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+    .Banner button {
+        margin-left: 0px;
+    }
+    .About .content h1 {
+        font-size: 2.3rem;
+    }
+    .About .content p {
+        font-size: 0.9rem;
+    }
+    .service h1 {
+        font-size: 1.5rem;
+    }
+    .design p {
+        padding: 0 50px;
+        font-size: 0.95rem;
+    }
+    .design .fa {
+        font-size: 2rem;
+    }
+    .design {
+        padding: 10px 0;
+    }
+    .total-2 .button {
+        width: 120px;
+        height: 40px;
+        font-size: 0.9rem;
+    }
+    .Banner button {
+        width: 120px;
+        height: 40px;
+        font-size: 0.9rem;
+    }
+    .second p {
+        font-size: 0.90rem;
+    }
+    .pink-area h1 {
+        font-size: 1.6rem;
+    }
+    .pink-area p {
+        font-size: 0.80rem;
+    }
+    .button2 {
+        width: 120px;
+        height: 40px;
+        font-size: 0.9rem;
+    }
+    .Three-person h1 {
+        font-size: 2.5rem;
+    }    
+    .corner {
+        margin-top: 145px;
+    }
+    footer p {
+        font-size: 0.8rem;
+        margin-bottom: 1.5rem;
+    }
+    .last{
+        padding: 0px 20px;
+    }
+    footer input {
+        font-size: 0.9rem;
+    }
+}
+@media only screen and (max-width:376px){
+    .Banner h1 {
+        font-size: 4rem;
+    }
+    .Banner p {
+        font-size: 0.9rem;
+    }
+    .About button {
+        width: 120px;
+        height: 40px;
+        font-size: 0.9rem;
+    }
+    .design p {
+        padding: 0 20px;
+        font-size: 0.8rem;
+    }
+    .design h3 {
+        font-size: 1.2rem;
+    }
+    .Portfolio h1 {
+        font-size: 1.3rem;
+    }
+    .Portfolio h4 {
+        font-size: 0.9rem;
+    }
+    .second h4 {
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    .first h1 {
+        font-size: 1.6rem;
+    }
+    .first h4 {
+        font-size: 1rem;
+    }
+    .second h1 {
+        font-size: 1.5rem;
+    }
+    .pink-area h1 {
+        font-size: 1.4rem;
+    }
+    .Three-person h1 {
+        font-size: 2rem;
+    }
+    .Three-person h5 {
+        font-size: 1rem;
+    }
+    .corner {
+        margin-top: 65px;
+    }
+    .blog img {
+        margin-bottom: 40px;
+    }
+}
+@media only screen and (max-width:320px){
+    .write p {
+        font-size: 0.7rem;
+    }
+    .write h3 {
+        font-size: 1.2rem;
+    }
+    .write h5 {
+        font-size: 0.8rem;
+    }
+    .pink-area h1 {
+        font-size: 1.1rem;
+    }
+    .pink-area p {
+        font-size: 0.7rem;
+    }
+    .button2 {
+        width: 100px;
+        height: 30px;
+        font-size: 0.7rem;
+    }
+    .Three-person h1 {
+        font-size: 1.8rem;
+    }
+    .corner {
+        margin-top: 0px;
+    }
+}
